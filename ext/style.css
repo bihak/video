@@ -1,0 +1,16 @@
+.info{
+    color : #005eff;
+    float: right;
+}
+.tab{
+    border: thick double #32a1ce;
+}
+#tab{
+    border: thick double #32a1ce;
+}
+.toto{
+    border: solid;
+}
+body{
+    background-color: #32a1ce;
+}

@@ -1,0 +1,12 @@
+.info{
+    color : #005eff;
+    float: right;
+}
+.tata{
+    border: thick double #32a1ce;
+}
+.toto{
+    border-top: thick double #32a1ce;
+    border-left: thick double #32a1ce;
+    border-right: thick double #32a1ce;
+}

@@ -1,0 +1,13 @@
+.info{
+    color : #005eff;
+    float: right;
+}
+.box{
+    border: solid;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #8eb1ee;
+}
+.image{
+    margin-top: 12PX;
+}
