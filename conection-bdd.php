@@ -1,7 +1,7 @@
 <?php 
             $servername = 'localhost';
             $username = 'root';
-            $password = '';
+            $password = 'root';
             $bdd="video";
             try {
              $cnx = new PDO('mysql:host='.$servername.';dbname='.$bdd, $username, $password);

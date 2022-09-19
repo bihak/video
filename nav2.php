@@ -1,4 +1,4 @@
-        <?php 
+<?php 
           $today = date("j F Y");  
         ?>  
 <!DOCTYPE html>
@@ -17,23 +17,23 @@
             <div class="row mt-3  ">
 
                 <div class="col-2 ">
-                  <a href="#"><img src="pictures\DesignVideoClub\BackGroundPMAc.jpg" alt=""></a>
+                  <a href="#"><img src="pictures\DesignVideoClub\VCLogo.gif" alt=""></a>
                 </div>
                 <div class="col-7 pt-4 text-center">
                   <a href="#" class="disabled font-weight-bold"><h1 class="">Vidéo-Club</h1></a>
-                  <a href="#"><h6>...et si on se faisait une toile, à la maison?</h6></a>
+                  <a href="#"><h6>Administration</h6></a>
                 </div>
-                <div class="col-3 pt-5 ">
-                    <ul class = "list-unstyled ">
+                <div class="col-3 pt-5">
+                    <ul class = "list-unstyled">
                         <li><a href="#"><?= $today ?></a></li>
-                        <div class="myDIV" id="myDIV"><li><a  href="#">Admin</a></li></div>
+                        <div class="myDIV" id="myDIV"><li><a  href="VCIAccueil.php">Site</a></li></div>
                         <div class="hide" id="hide">
-                          <form action="VCIResa5.php"  method="get">
+                          <form action="VCIResa5.php" method="get">
                             <label for="login">Logine : </label>
                             <input type="text" name="login">
                             <br>
                             <label for="pass">Pass : </label>
-                            <input class="pass" type="password" name="pass">
+                            <input class="pass" type="text" name="pass">
                             
                             <input class="submit"  type="submit" name="submit" value="submit">
                             

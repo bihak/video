@@ -21,6 +21,7 @@
                 </div>
                 <div class="col-9 pt-4 text-center">
                   <a href="#"><h1>Bienvenue sur le site du Vidéo-Club ! </h1></a>
+                  <img src="pictures\DesignVideoClub\rideau.png" style="width: 90%;" alt="">
                   
                 </div> 
             </div> 

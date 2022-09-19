@@ -85,9 +85,9 @@
                   <a href="#"><h1>selectionnez le type de film que vous rechercher</h1></a>
 
                   <form method="post" action="VCIResa2.php" enctype="multipart/form-data">
-                    <table>
+                    <table class="mx-auto">
                         <tr>
-                            <select name="select" id="" style="width: 300px;">
+                            <select class="custom-select" name="select" id="" style="width: 60%;">
                                 <option value="">< Sélectionnez le type recherché ></option>
                                 <option value="select1" name="select1"><?= $select1 ?></option>
                                 <option value="select2" name="select2"><?= $select2 ?></option>
@@ -98,7 +98,7 @@
                             </select>  
                         </tr>
                         <tr>
-                             <td><input name="btn_telecharger" type="submit" value="Télécharger"></td>
+                             <td><input class="btn btn-lg btn-primary" name="btn_telecharger" type="submit" value="Valider"></td>
                         </tr>
                     </table>
                   </form>
